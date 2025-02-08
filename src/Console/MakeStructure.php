@@ -32,6 +32,8 @@ class MakeStructure extends Command
 namespace App\Http\Controllers;
 
 use App\Http\Services\\{$name}Service;
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 class {$name}Controller extends Controller
 {
